@@ -1,0 +1,16 @@
+.hometitle {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 90px;
+  text-align: center;
+  color: #fff3dc;
+  width: 100%;
+  border-bottom: 5px solid #987272;
+  font-style: italic;
+  background-color: #9fd4c7;
+}
+
+@media screen and (max-width: 800px) {
+  .hometitle {
+    width: 30%;
+  }
+}

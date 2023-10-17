@@ -1,0 +1,19 @@
+.macaroontitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #9fd4c7;
+    height: 100px;
+    color: #987272;
+    font-style: italic;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .macaroontitle {
+        text-align: center;
+        height: 200px;
+    }
+  }

@@ -1,0 +1,235 @@
+.containerbakedgoods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.containerbakedgoods .TwoBikes {
+  background-image: url(../images/TwoBikes.jpeg);
+  width: 450px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.containerbakedgoods .TwoBikes .overlay {
+  width: 450px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.68);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.containerbakedgoods .TwoBikes .overlay .textgroup {
+  margin-top: 210px;
+  margin-right: 10px;
+}
+.containerbakedgoods .TwoBikes .overlay .overtext {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.containerbakedgoods .TwoBikes .overlay .overtext2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Norwester;
+  font-size: 25px;
+}
+@font-face {
+  font-family: Norwester;
+  src: url(../fonts/norwester/norwester.otf);
+}
+.containerbakedgoods .Gear {
+  background-image: url(../images/Gear.jpeg);
+  width: 450px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.containerbakedgoods .Gear .overlay {
+  width: 450px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.68);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.containerbakedgoods .Gear .overlay .textgroup {
+  margin-top: 210px;
+  margin-right: 10px;
+}
+.containerbakedgoods .Gear .overlay .overtext {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.containerbakedgoods .Gear .overlay .overtext2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Norwester;
+  font-size: 25px;
+}
+@font-face {
+  font-family: Norwester;
+  src: url(../fonts/norwester/norwester.otf);
+}
+.containerbakedgoods .Packing {
+  background-image: url(../images/Packing.jpeg);
+  width: 450px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.containerbakedgoods .Packing .overlay {
+  width: 450px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.68);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.containerbakedgoods .Packing .overlay .textgroup {
+  margin-top: 210px;
+  margin-right: 10px;
+}
+.containerbakedgoods .Packing .overlay .overtext {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.containerbakedgoods .Packing .overlay .overtext2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Norwester;
+  font-size: 25px;
+}
+@font-face {
+  font-family: Norwester;
+  src: url(../fonts/norwester/norwester.otf);
+}
+.containerbakedgoods .WomanBike {
+  background-image: url(../images/WomanBike.jpeg);
+  width: 450px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.containerbakedgoods .WomanBike .overlay {
+  width: 450px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.68);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.containerbakedgoods .WomanBike .overlay .textgroup {
+  margin-top: 210px;
+  margin-right: 10px;
+}
+.containerbakedgoods .WomanBike .overlay .overtext {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.containerbakedgoods .WomanBike .overlay .overtext2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Norwester;
+  font-size: 25px;
+}
+@font-face {
+  font-family: Norwester;
+  src: url(../fonts/norwester/norwester.otf);
+}
+.containerbakedgoods .TwoBikes:hover > .overlay {
+  display: block;
+}
+.containerbakedgoods .Gear:hover > .overlay {
+  display: block;
+}
+.containerbakedgoods .Packing:hover > .overlay {
+  display: block;
+}
+.containerbakedgoods .WomanBike:hover > .overlay {
+  display: block;
+}

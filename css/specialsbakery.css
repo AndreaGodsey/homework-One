@@ -1,0 +1,10 @@
+.specialsbakery {
+  background-image: url(../images/specialsbakery.jpg);
+  width: 88%;
+  height: 720px;
+  margin-left: 5%;
+  margin-top: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

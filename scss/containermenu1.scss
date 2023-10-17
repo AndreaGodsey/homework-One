@@ -1,0 +1,59 @@
+.containermenu1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    background-color: #d0b2aa;
+    .leftpara3{
+        height: 380px;
+        width: 100%;
+        .titleofpara3{
+            padding-left: 5px;
+            font-size: 30px;
+            color: #987272;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .leftparaedit{
+            padding-left: 5px;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #987272;
+            margin-top: 50px;
+            width: 85%;
+        }
+    }
+
+    .rightimage3{
+        .Cupcakes{
+            background-image: url(../images/HalloweenCupcakes.jpg);
+            width: 350px;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .containermenu1 {
+        flex-direction: column;
+      width: 100%;
+      height: 100%;
+
+      .titleofpara3{
+        text-align: center;
+    }
+
+    .leftparaedit{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .rightimage3{
+        margin-bottom: 10px;
+    }
+    }
+  }

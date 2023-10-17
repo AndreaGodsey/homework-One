@@ -1,0 +1,37 @@
+.containermenu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: #d0b2aa;
+}
+.containermenu2 .leftpara3 {
+  height: 380px;
+}
+.containermenu2 .leftpara3 .titleofpara3 {
+  font-size: 30px;
+  color: brown;
+}
+.containermenu2 .leftpara3 .leftparaedit {
+  font-size: 20px;
+  font-family: Baskerville-Regular;
+  margin-top: 50px;
+  width: 900px;
+}
+@font-face {
+  font-family: Baskerville-Regular;
+  src: url(../fonts/Baskervville/Baskervville-Regular.ttf);
+}
+.containermenu2 .rightimage3 .Waffles {
+  background-image: url(../images/Waffles.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

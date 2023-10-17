@@ -1,0 +1,27 @@
+.ourpromise{
+    background-color:  #9fd4c7;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .ourpromisetitle{
+        text-align: center;
+        width: 100%;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #987272;
+        font-style: italic;
+    }
+
+    .promisepara{
+        font-size: 30px;
+       margin-top: 20px;
+       width: 70%;
+       text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #987272;
+    }
+}

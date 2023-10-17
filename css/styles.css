@@ -1,0 +1,846 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 100%;
+  min-height: 100%;
+  background-color: #ffe6e6;
+  margin: 0 auto;
+}
+
+nav {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #9fd4c7;
+}
+nav .nava {
+  text-decoration: none;
+  color: #987272;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  nav .nava {
+    margin-left: 5px;
+  }
+}
+.contacttitle {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 90px;
+  text-align: center;
+  color: #fff3dc;
+  width: 100%;
+  border-bottom: 5px solid #987272;
+  font-style: italic;
+  background-color: #9fd4c7;
+}
+
+@media screen and (max-width: 800px) {
+  .contacttitle {
+    max-width: 800px;
+  }
+}
+.contactcontainer .contactform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 800px;
+  width: 70%;
+  margin-left: 15%;
+}
+.contactcontainer .contactform .textFields {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 21px;
+  border: none;
+  background-color: #F5F5F5;
+}
+.contactcontainer .contactform .textFieldsMessages {
+  width: 100%;
+  height: 199px;
+  margin-bottom: 21px;
+  border: none;
+  background-color: #F5F5F5;
+}
+.contactcontainer .contactform .map {
+  width: 400px;
+  height: 637px;
+  margin-top: 60px;
+}
+.contactcontainer .contactform .map .mapimage {
+  width: 100%;
+  height: 442px;
+  margin-bottom: 34px;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactcontainer .contactform .map .mapaddress {
+  width: 100%;
+  height: 161px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+.contactcontainer .contactform .contactboxes {
+  width: 470px;
+  height: 600px;
+  margin-top: 60px;
+}
+.contactcontainer .contactform .sendmessagebutton {
+  font-size: 16px;
+  padding: 20px 20px;
+  background-color: #987272;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: none;
+  width: 35%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  .contactcontainer {
+    height: 1200px;
+  }
+  .contactcontainer .contactform {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactcontainer .contactform .sendmessagebutton {
+    width: 35%;
+  }
+}
+.footerbox {
+  height: 100px;
+  width: 100%;
+  background-color: #9fd4c7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.footerbox .copyright {
+  color: #987272;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footerbox .group-social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.footerbox .group-social-media .social-media-icons1 {
+  color: #987272;
+  padding: 12px;
+}
+.footerbox .group-social-media .social-media-icons2 {
+  color: #987272;
+  padding: 12px;
+}
+.footerbox .group-social-media .social-media-icons3 {
+  color: #987272;
+  padding: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .footerbox {
+    max-width: 800px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .footerbox {
+    max-width: 640px;
+  }
+}
+.about-text {
+  font-size: 90px;
+  color: #fff3dc;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  border-bottom: 5px solid #987272;
+  font-style: italic;
+  background-color: #9fd4c7;
+}
+
+@media screen and (max-width: 800px) {
+  .about-text {
+    max-width: 800px;
+  }
+}
+.bakerowner {
+  background-image: url(../images/bakerowner.jpg);
+  width: 100%;
+  height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paragraphinfo {
+  padding: 4%;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #987272;
+  background-color: #fff3dc;
+  width: 100%;
+}
+
+.specialstitle {
+  font-size: 90px;
+  color: #fff3dc;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  border-bottom: 5px solid #987272;
+  font-style: italic;
+  background-color: #9fd4c7;
+}
+
+.specialsbakery {
+  background-image: url(../images/specialsbakery.jpg);
+  width: 100%;
+  height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divide {
+  height: 60px;
+  width: 100%;
+  background-color: #ffe6e6;
+}
+
+.ourpromise {
+  background-color: #9fd4c7;
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.ourpromise .ourpromisetitle {
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #987272;
+  font-style: italic;
+}
+.ourpromise .promisepara {
+  font-size: 30px;
+  margin-top: 20px;
+  width: 70%;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #987272;
+}
+
+.containermenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: #987272;
+}
+.containermenu .leftpara3 {
+  height: 380px;
+  width: 100%;
+}
+.containermenu .leftpara3 .titleofpara3 {
+  padding-left: 5px;
+  font-size: 30px;
+  color: #9fd4c7;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.containermenu .leftpara3 .leftparaedit {
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-top: 50px;
+  width: 85%;
+  color: #9fd4c7;
+}
+.containermenu .rightimage3 .Choco {
+  background-image: url(../images/ChocoChip.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 800px) {
+  .containermenu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .containermenu .titleofpara3 {
+    text-align: center;
+  }
+  .containermenu .leftparaedit {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .containermenu .rightimage3 {
+    margin-bottom: 10px;
+  }
+}
+.containermenu1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: #d0b2aa;
+}
+.containermenu1 .leftpara3 {
+  height: 380px;
+  width: 100%;
+}
+.containermenu1 .leftpara3 .titleofpara3 {
+  padding-left: 5px;
+  font-size: 30px;
+  color: #987272;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.containermenu1 .leftpara3 .leftparaedit {
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #987272;
+  margin-top: 50px;
+  width: 85%;
+}
+.containermenu1 .rightimage3 .Cupcakes {
+  background-image: url(../images/HalloweenCupcakes.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 800px) {
+  .containermenu1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .containermenu1 .titleofpara3 {
+    text-align: center;
+  }
+  .containermenu1 .leftparaedit {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .containermenu1 .rightimage3 {
+    margin-bottom: 10px;
+  }
+}
+.containermenu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  background-color: #9fd4c7;
+}
+.containermenu2 .leftpara3 {
+  height: 380px;
+  width: 100%;
+}
+.containermenu2 .leftpara3 .titleofpara3 {
+  padding-left: 5px;
+  font-size: 30px;
+  color: #987272;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+.containermenu2 .leftpara3 .leftparaedit {
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-top: 50px;
+  width: 85%;
+  color: #987272;
+}
+.containermenu2 .rightimage3 .PumpkinPie {
+  background-image: url(../images/PumpkinPie.jpg);
+  width: 350px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 800px) {
+  .containermenu2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .containermenu2 .titleofpara3 {
+    text-align: center;
+  }
+  .containermenu2 .leftparaedit {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .containermenu2 .rightimage3 {
+    margin-bottom: 10px;
+  }
+}
+.cateringservices {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(90, 90, 90, 0.5)), to(rgba(90, 90, 90, 0.5))), url(../images/cateringbakery.jpg);
+  background-image: linear-gradient(to right, rgba(90, 90, 90, 0.5), rgba(90, 90, 90, 0.5)), url(../images/cateringbakery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.cateringservices .callout2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.cateringservices .callout2 .cateringservicestitle {
+  width: 80%;
+  margin-top: 130px;
+  font-size: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffe6e6;
+}
+.cateringservices .callout2 .explorebutton {
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #ffe6e6;
+  color: #987272;
+  border: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  width: 220px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 50px;
+  font-size: 23px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .cateringservices {
+    text-align: center;
+  }
+}
+.hometitle {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 90px;
+  text-align: center;
+  color: #fff3dc;
+  width: 100%;
+  border-bottom: 5px solid #987272;
+  font-style: italic;
+  background-color: #9fd4c7;
+}
+
+@media screen and (max-width: 800px) {
+  .hometitle {
+    max-width: 800px;
+  }
+}
+.macaroonstopimage {
+  background-image: url(../images/Macaroonstopimage.jpg);
+  width: 100%;
+  height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.macaroontitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #9fd4c7;
+  height: 100px;
+  color: #987272;
+  font-style: italic;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .macaroontitle {
+    text-align: center;
+    height: 200px;
+  }
+}
+.containerbakedgoods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.containerbakedgoods .Cakebakedgood {
+  background-image: url(../images/cakesbakedgoods.jpg);
+  width: 490px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.containerbakedgoods .Cakebakedgood .overlay {
+  width: 490px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.68);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.containerbakedgoods .Cakebakedgood .overlay .textgroup {
+  margin-top: 210px;
+  margin-right: 10px;
+}
+.containerbakedgoods .Cakebakedgood .overlay .overtext {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+.containerbakedgoods .Cakebakedgood .overlay .overtext2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+}
+.containerbakedgoods .Cupcakesbakedgood {
+  background-image: url(../images/Cupcakesbakedgood.jpg);
+  width: 490px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.containerbakedgoods .Cupcakesbakedgood .overlay {
+  width: 490px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.68);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.containerbakedgoods .Cupcakesbakedgood .overlay .textgroup {
+  margin-top: 210px;
+  margin-right: 10px;
+}
+.containerbakedgoods .Cupcakesbakedgood .overlay .overtext {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+.containerbakedgoods .Cupcakesbakedgood .overlay .overtext2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+}
+.containerbakedgoods .Cookiesbakedgood {
+  background-image: url(../images/Cookiesbakedgood.jpg);
+  width: 490px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.containerbakedgoods .Cookiesbakedgood .overlay {
+  width: 490px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.68);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.containerbakedgoods .Cookiesbakedgood .overlay .textgroup {
+  margin-top: 210px;
+  margin-right: 10px;
+}
+.containerbakedgoods .Cookiesbakedgood .overlay .overtext {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+}
+.containerbakedgoods .Cookiesbakedgood .overlay .overtext2 {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+}
+.containerbakedgoods .Cakebakedgood:hover > .overlay {
+  display: block;
+}
+.containerbakedgoods .Cupcakesbakedgood:hover > .overlay {
+  display: block;
+}
+.containerbakedgoods .Cookiesbakedgood:hover > .overlay {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .containerbakedgoods {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 12px;
+  }
+}
+.containerhometestimonials {
+  background-color: #ffe6e6;
+  height: 600px;
+  width: 100%;
+}
+.containerhometestimonials .titleofclient {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5px;
+  font-size: 30px;
+  color: #987272;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+}
+.containerhometestimonials .nameone {
+  color: #987272;
+  width: 100%;
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.containerhometestimonials .nameone .para1 {
+  color: #9fd4c7;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.containerhometestimonials .nametwo {
+  color: #987272;
+  width: 100%;
+  margin-left: 20px;
+  font-size: 25px;
+  margin-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.containerhometestimonials .nametwo .para2 {
+  color: #9fd4c7;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.containerhometestimonials .namethree {
+  color: #987272;
+  width: 100%;
+  margin-top: 80px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.containerhometestimonials .namethree .para3 {
+  color: #9fd4c7;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .containerhometestimonials {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    height: 600px;
+  }
+  .containerhometestimonials .nameone {
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+  .containerhometestimonials .nametwo {
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+  .containerhometestimonials .namethree {
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+}
